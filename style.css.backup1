@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    margin-top: 100px;
+    transform: translateX(-110px);
+}
+
+nav ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.bullets {
+    padding-top: 20px;
+    list-style-type: none;
+    text-align: right;
+    text-decoration: none;
+    font-size: 18px;
+}
+.bullets li {
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #333;
+    font-size: 72px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.column-1 {
+    flex: 0 0 200px;
+    padding-right: 20px;
+    border-right: 3px solid;
+}
+.column-2 {
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 185px;
+    max-width: 400px;
+}
+
+.content {
+    font-size: 18px;
+}

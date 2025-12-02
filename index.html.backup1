@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Elias Brown - Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="column-1">
+                <h1>ELIAS<br />BROWN</h1>
+                <nav class="sidebar">
+                    <ul class="bullets">
+                        <li><a href="#about">about me</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#blog">blog</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="column-2">
+                <main class="content">
+                    <p>
+                        Hello, my name is Elias Brown. As long as I can
+                        remember, I have been interested in tinkering with
+                        software, mechanics and circuitry. I am currently
+                        studying programming at Future Games in Malmö, Sweden.
+                    </p>
+                    <p>
+                        In my second year, I chose to specialize in Engine and
+                        Tools. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>

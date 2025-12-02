@@ -5,62 +5,67 @@
     font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
 body {
     font-family: 'Source Code Pro', monospace;
-    background-color: #f2f2f2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr auto auto 1fr;
     margin: 0;
-}
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-    /* background-color: #fff; */
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-    display: flex;
-    margin-top: 100px;
-    transform: translateX(-110px);
-}
-
-nav ul li a {
-    color: #666;
-    text-decoration: none;
-}
-
-.bullets {
-    padding-top: 20px;
-    list-style-type: none;
-    text-align: right;
-    text-decoration: none;
-    font-size: 18px;
-}
-.bullets li {
-    margin-bottom: 10px;
-}
-
-h1 {
-    color: #333;
-    font-size: 72px;
-    margin-bottom: 20px;
-    text-align: right;
+    margin-top: 70px;
 }
 
 .column-1 {
-    flex: 0 0 200px;
+    grid-column: 2;
+    width: 300px;
+
+    /* flex stuff*/
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 80px;
+
+    height: 100%;
     padding-right: 20px;
-    border-right: 3px solid;
-}
-.column-2 {
-    flex: 1;
-    margin-left: 20px;
-    margin-top: 185px;
-    max-width: 400px;
+
+    transform: translateX(-150px);
 }
 
-.content {
-    font-size: 18px;
+.name-header {
+    text-align: right;
+    font-size: 68px;
+}
+
+ul {
+    list-style-type: none;
+}
+.bullets a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+.bullets {
+    text-align: right;
+}
+
+.column-2 {
+    grid-column: 3;
+    width: 700px;
+    font-size: 24px;
+    height: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    transform: translateX(-150px);
+
+    border-right: 5px dotted rgba(0, 0, 0, 0.6);
+    border-left: 5px dotted rgba(0, 0, 0, 0.6);
 }
