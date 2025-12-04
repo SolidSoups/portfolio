@@ -1,0 +1,19 @@
+.mainContent {
+    padding-top: 80px;
+}
+
+.mainContent p {
+    font-size: 20px;
+    font-family: 'Source Sans 3', monospace;
+}
+
+.pageHeader {
+    margin-bottom: 40px;
+    padding-left: 10px;
+    background-color: var(--octopus-blue);
+    color: white;
+}
+
+.mainContent .content {
+    padding: 0 20px 0 20px;
+}
