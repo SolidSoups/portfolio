@@ -5,11 +5,16 @@
     font-style: normal;
 }
 
+:root {
+    --primary-color: #011b1f;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* border: 1px solid black; */
+    color: var(--primary-color);
 }
 
 body {
@@ -19,6 +24,15 @@ body {
     grid-template-columns: 1fr auto auto 1fr;
     margin: 0;
     margin-top: 70px;
+
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        url('images/unspash-paper-1.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .column-1 {
@@ -29,7 +43,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: right;
-    gap: 80px;
 
     height: 100%;
     padding-right: 20px;
@@ -38,12 +51,21 @@ body {
 }
 
 .name-header {
+    margin-top: 30px;
     text-align: right;
-    font-size: 68px;
+    font-size: 80px;
+    line-height: 1;
+}
+.name-underline {
+    padding-top: 0;
+    margin-top: 4px;
+    text-align: right;
+    color: gray;
 }
 
 ul {
     list-style-type: none;
+    margin-top: 80px;
 }
 .bullets a {
     text-decoration: none;
@@ -65,7 +87,8 @@ ul {
     padding: 10px;
     padding-left: 20px;
     transform: translateX(-150px);
+    color: var(--primary-color);
 
-    border-right: 5px dotted rgba(0, 0, 0, 0.6);
-    border-left: 5px dotted rgba(0, 0, 0, 0.6);
+    border-right: 5px dotted var(--primary-color);
+    border-left: 5px dotted var(--primary-color);
 }
