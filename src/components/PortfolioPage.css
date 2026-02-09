@@ -1,0 +1,19 @@
+.cards-panel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.cards-panel > h1 {
+  font-size: 3.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  text-align: center;
+  margin: 0.2rem;
+  margin-bottom: 1rem;
+}

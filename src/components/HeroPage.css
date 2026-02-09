@@ -1,0 +1,31 @@
+
+.hero-grid {
+  display: flex;
+  overflow: hidden;
+}
+
+.hero-grid img {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 33%;
+  height: 100%;
+  min-height: 0;
+  box-sizing: border-box;
+}
+
+.about-me-section{
+  flex: 1;
+  padding: 1.5rem;
+}
+.about-me-section h1{
+  font-family: 'Trispace', sans-serif;
+  color: white;
+  font-size: 3rem;
+  margin: 0.1rem 0 1rem 0;
+  letter-spacing: 0.1rem;
+}
+.about-me-section p{
+  color: white;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.9rem;
+}

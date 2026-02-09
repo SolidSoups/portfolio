@@ -1,0 +1,43 @@
+html {
+  font-size: 10px;
+}
+
+:root {
+  --border-thickness: 2px;
+
+  background: 
+    radial-gradient(ellipse at top, rgba(90, 100, 110, 0.4), transparent 70%),
+    linear-gradient(135deg, #1a1d24 0%, #2a2f38 40%, #3a3f48 60%, #25282f 100%);
+}
+
+p {
+  font-size: 1.9rem;
+  font-family: 'Space Mono', monospace;
+}
+
+.aero-div-light, .aero-div-dark {
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 8px;
+}
+.aero-div-light {
+  background: 
+    radial-gradient(ellipse at top, rgba(180, 190, 200, 0.4), transparent 70%),
+    linear-gradient(135deg, #4a505a 0%, #5a6070 40%, #6a7080 60%, #505560 100%);
+}
+
+.aero-div-dark {
+  background: 
+    radial-gradient(ellipse at top, rgba(80, 90, 100, 0.4), transparent 70%),
+    linear-gradient(135deg, #3a3e45 0%, #4a4f58 40%, #5a6068 60%, #454950 100%);
+  box-shadow: 
+    inset 0 1px 4px rgba(255, 255, 255, 0.2),
+    0 4px 8px 2px rgba(0, 0, 0, 0.3);
+  margin: 0 2rem 0 2rem;
+}
+
+.aero-img {
+  border-radius: 8px;
+  box-shadow: 
+    inset 0 1px 4px rgba(255, 255, 255, 0.2),
+    0 4px 8px 2px rgba(0, 0, 0, 0.3);
+}
