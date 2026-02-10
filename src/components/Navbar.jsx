@@ -3,15 +3,15 @@ export default function Navbar({ currentPage, setPage }) {
   const cls = (page) => `nav-item${currentPage === page ? " selected" : ""}`;
 
   return (
-    <div className="navbar aero-div-light">
+    <div className="navbar">
       <button className={cls("home")} onClick={() => setPage("home")}>
-        Home
+        HOME
       </button>
       <button className={cls("portfolio")} onClick={() => setPage("portfolio")}>
-        Portfolio
+        PORTFOLIO
       </button>
       <button className={cls("contact")} onClick={() => setPage("contact")}>
-        Contact
+        CONTACT
       </button>
     </div>
   );

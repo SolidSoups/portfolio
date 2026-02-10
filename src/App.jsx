@@ -21,8 +21,17 @@ function App() {
     <>
       <div className="main-view-flex">
         <div className="main-view">
-          <Header />
-          <Navbar setPage={setPage} currentPage={page} />
+          {/* HEADER */}
+          <div className="header-panel">
+            <div className="header-panel-top aero-div-blue">
+              <Header />
+            </div>
+            <div className="header-panel-bottom aero-div-light">
+              <Navbar setPage={setPage} currentPage={page} />
+            </div>
+          </div>
+
+          {/* CONTENT */}
           <div className="content-flex">{pages[page]}</div>
         </div>
       </div>

@@ -12,7 +12,7 @@ export default function PortfolioPage() {
             desc: "Endless runner in a sushi restaurant.",
             imgSrc: "sushi2go-edit.png",
             teamSize: 10,
-            scopeTime: 10,
+            scopeTime: 3,
             engine: "Unity",
           }}
         />

@@ -4,17 +4,37 @@
   width: 100vw;
   height: 100vh;
   justify-content: center;
+
+  margin: 0;
+  padding: 0;
 }
 
 .main-view {
-  width: 120rem;
+  width: 70vw;
+  margin: 0;
+  padding: 0;
   height: 100vh;
 }
 .content-flex {
-  --content-padding: 8rem;
-  padding: 0 var(--content-padding) 0 var(--content-padding);
+  width:90%;
+  justify-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+
+.header-panel {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0 4rem 0;
+}
+.header-panel-top{
+  border-radius: 8px 8px 0 0;
+  padding: 1rem;
+}
+.header-panel-bottom {
+  padding: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
