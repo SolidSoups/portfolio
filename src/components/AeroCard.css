@@ -1,9 +1,10 @@
 
 .aero-card {
   --bg-color-light: #2f364c;
-  width: auto;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   height: 250px;
-  margin: 2rem 2rem 2rem 4rem;
 
   border-radius: 8px;
   box-shadow: 
@@ -45,7 +46,7 @@ background:
 }
 .aero-card-top > img {
   height: 100%;
-  width: auto;
+  max-width: 45%;
   object-fit: contain;
   box-sizing: border-box;
   border-radius: 8px;
@@ -59,11 +60,14 @@ background:
 }
 .aero-card-desc h1 {
   font-family: 'Michroma', sans-serif;
-  font-size: 2.5rem;
-  letter-spacing: 0.2em;
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
   padding: 0.4rem 0 0.4rem 0;
   margin: 0;
   color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .aero-card-description {
   color: white;
@@ -76,6 +80,7 @@ background:
   flex-direction: row;
   justify-content: space-evenly;
   padding: 0 1rem 0 1rem;
+  white-space: nowrap;
 }
 .aero-card-desc-info > p{
   font-size: 1.8rem;
@@ -83,29 +88,4 @@ background:
   text-align: right;
   margin: 0.5rem;
   font-style: italic;
-}
-
-
-.aero-card-bottom {
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.3);
-
-  border-radius: 0 0 8px 8px;
-  box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.3);
-
-  
-  /* make text vertical flex */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.aero-card-bottom > p {
-  margin: 0;
-  padding: 1.1rem 0;
-  color: white;
-  text-align: center;
-  flex: 1;
 }

@@ -1,14 +1,24 @@
 
 .skills-panel {
-  width: 65%;
-  align-self: flex-end;
+  width: 100%;
+  padding: 2rem;
 }
 .skills-div {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
+  justify-self: center;
+  padding: 0;
 }
-.div-header {
+.skills-div > h1 {
+  text-align: left;
+  color: white;
+  font-size: 2.4rem;
+  align-self: start;
+  margin: 0.3rem 4rem 1rem 0;
+  padding: 0.2rem;
+}
+.skills-panel > h1 {
   text-align: center;
   font-size: 3.5rem;
   font-family: 'Inter', sans-serif;
@@ -16,16 +26,7 @@
   font-style: italic;
   color: rgba(255, 255, 255, 0.9);
   width: 100%;
-  margin: 0.2rem;
-  margin-bottom: 2rem;
-}
-.skill-header {
-  text-align: left;
-  color: white;
-  font-size: 2.4rem;
-  align-self: start;
-  margin: 0.3rem 7rem 1rem 0;
-  padding: 0.2rem;
+  margin-top: 0;
 }
 
 .langs-div {
@@ -41,4 +42,10 @@
   margin: 0.25rem;
   color: rgba(255, 255, 255, 0.8);
   font-weight: 600;
+}
+
+.skills-panel > p {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: right;
+  margin-bottom: 0;
 }

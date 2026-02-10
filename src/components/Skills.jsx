@@ -5,7 +5,7 @@ export default function Skills() {
   const tools = ["Unity", "Unreal", "Git CLI", "Perforce", "GDB", "CMake"];
 
   return (
-    <div className="skills-panel aero-div-light">
+    <div className="skills-panel">
       <h1 className="div-header">Primary Skills</h1>
       <div className="skills-div">
         <h1 className="skill-header">LANGUAGES</h1>
@@ -29,6 +29,10 @@ export default function Skills() {
           ))}
         </div>
       </div>
+      <p>
+        Background in Scientific Engineering, strong foundation in Mathmatics
+        and Physics.
+      </p>
     </div>
   );
 }

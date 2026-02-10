@@ -2,9 +2,9 @@ import "./App.css";
 import "./fonts.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import HeroPage from "./components/HeroPage";
 import PortfolioPage from "./components/PortfolioPage";
 import ContactPage from "./components/ContactPage";
+import HomePage from "./components/HomePage";
 
 import { useState } from "react";
 
@@ -12,7 +12,7 @@ function App() {
   const [page, setPage] = useState("home");
 
   const pages = {
-    home: <HeroPage />,
+    home: <HomePage />,
     portfolio: <PortfolioPage />,
     contact: <ContactPage />,
   };
@@ -32,7 +32,7 @@ function App() {
           </div>
 
           {/* CONTENT */}
-          <div className="content-flex">{pages[page]}</div>
+          <div className="content-flex aero-div-light">{pages[page]}</div>
         </div>
       </div>
     </>
