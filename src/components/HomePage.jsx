@@ -5,7 +5,6 @@ import rehypeRaw from "rehype-raw";
 import { useState, useEffect } from "react";
 
 export default function HomePage() {
-  const markdown = "# Hello\n## Helloo\nThis is **markdown** text";
   const [content, setContent] = useState("");
 
   useEffect(() => {
@@ -16,7 +15,7 @@ export default function HomePage() {
 
   return (
     <div className="bio-section">
-      <div className="markdown-content">
+      <div className="site-content">
         <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import "./App.css";
 import "./fonts.css";
+import "./content.css";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import PortfolioPage from "./components/PortfolioPage";

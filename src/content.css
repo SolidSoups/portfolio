@@ -1,0 +1,105 @@
+/* Content typography — applies inside <main class="site-content"> */
+
+.site-content {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.site-content h1,
+.site-content h2,
+.site-content h3,
+.site-content h4 {
+  font-family: 'Trispace', sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.site-content h1 {
+  font-size: 4.2rem;
+  margin: 0 0 1.2rem 0;
+}
+
+.site-content h2 {
+  font-size: 3.6rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.site-content h3 {
+  font-size: 3.0rem;
+  margin: 1.8rem 0 0.8rem 0;
+}
+
+.site-content h4 {
+  font-size: 2.4rem;
+  margin: 1.6rem 0 0.6rem 0;
+}
+
+.site-content p {
+  font-family: 'Trispace', sans-serif;
+  font-size: 2rem;
+  margin: 0 0 1.2rem 0;
+}
+
+.site-content ul,
+.site-content ol {
+  font-family: 'Trispace', sans-serif;
+  font-size: 2rem;
+  padding-left: 2.4rem;
+  margin: 0 0 1.2rem 0;
+}
+
+.site-content li {
+  font-family: 'Trispace', sans-serif;
+  font-size: 2rem;
+  margin: 0.4rem 0;
+}
+
+.site-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* Markdown layout utilities (used in public/home.md) */
+
+.md-row {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.weak-p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 2rem;
+}
+
+.md-padded,
+.md-alt-bg {
+  padding: 4rem !important;
+}
+
+.md-padded.md-row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.md-alt-bg {
+  width: 100%;
+  box-sizing: border-box;
+  background: black;
+  background:
+    radial-gradient(ellipse at top, rgba(80, 90, 100, 0.4), transparent 70%),
+    linear-gradient(135deg, #3a3e45 0%, #4a4f58 40%, #5a6068 60%, #454950 100%);
+  box-shadow:
+    inset 0 1px 4px rgba(255, 255, 255, 0.2),
+    0 4px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.weak-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}

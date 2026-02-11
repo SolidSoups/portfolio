@@ -1,7 +1,12 @@
-
-
 .contact-panel {
   width: 100%;
-  height: 400px;
+  min-height: 400px;
   padding: 0;
 }
+
+.contact-info {
+  justify-self: center;
+  width: fit-content;
+  padding: 2rem 8rem 2rem 8rem;
+}
+

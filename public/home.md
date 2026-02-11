@@ -1,8 +1,8 @@
-<div class="padded-row inline-row" >
+<div class="md-padded md-row" style="gap: 4rem;" >
 <img src="portrait.png" width="400"/>
 <div>
 
-<h2 style="margin-bottom: 0;">ELIAS BROWN</h2>
+<h2 style="text-align: left; margin-bottom: 0; margin-top: 0;">ELIAS BROWN</h2>
 
 <span style="color: rgba(255, 255, 255, 0.7); font-size: 2rem;">*Game Engine & Tools Programmer with a focus on in-house engine developement.*
 </span>
@@ -16,13 +16,13 @@ At the end of my education I will be looking for an internship, from the 18th of
 
 <br/>
 
-<div class="alternate-row" style="border-radius: 0 0 8px 8px;">
+<div class="md-alt-bg" style="border-radius: 0 0 8px 8px;">
 
 <h2 style="text-align: center;">SKILLS</h2>
 
-<p style="text-align: center; color: rgba(255, 255, 255, 0.7);">Focused on low-level programming. Comfterable at adapting new languages, tools and libraries as needed.</p>
+<p class="weak-text">Focused on low-level programming. Comfterable at adapting new languages, tools and libraries as needed.</p>
 
-<div class="inline-row" style="justify-content: space-evenly;">
+<div class="md-row" style="justify-content: space-evenly;">
 <div>
 
 **Languages**
@@ -66,9 +66,9 @@ At the end of my education I will be looking for an internship, from the 18th of
 
 <h2 style="text-align: center;">HIGHLIGHTED COURSES</h2>
 
-<p style="text-align: center; color: rgba(255, 255, 255, 0.7);">Background in Scientific Engineering, with strong focus on Mathmatics and Physics.</p>
+<p class="weak-text">Background in Scientific Engineering, with strong focus on Mathmatics and Physics.</p>
 
-<div class="inline-row" style="justify-content: space-evenly;">
+<div class="md-row" style="justify-content: space-evenly;">
 
 <div>
 
