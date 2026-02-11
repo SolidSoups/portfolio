@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import PortfolioPage from "./components/PortfolioPage";
 import ContactPage from "./components/ContactPage";
 import HomePage from "./components/HomePage";
+import ProjectPage from "./components/ProjectPage";
+import sushi2goMd from "../public/sushi2go.md?raw";
 
 import { useState } from "react";
 
@@ -14,8 +16,12 @@ function App() {
 
   const pages = {
     home: <HomePage />,
-    portfolio: <PortfolioPage />,
+    portfolio: <PortfolioPage setPage={setPage} />,
     contact: <ContactPage />,
+    sushi2go: <ProjectPage rawContent={sushi2goMd} />,
+    daggerbound: <ProjectPage mdFile="daggerbound.md" />,
+    slaylien: <ProjectPage mdFile="slaylien.md" />,
+    whatislove: <ProjectPage mdFile="whatislove.md" />,
   };
 
   return (

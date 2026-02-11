@@ -22,6 +22,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+.header-icon {
+  height: 8rem;
+  width: auto;
+  margin: 0 -0.5rem;
+  filter: invert(90%) sepia(15%) saturate(400%) hue-rotate(10deg) brightness(105%);
+}
+
 .header h2 {
   font-family: 'Space Mono', sans-serif;
   font-size: 2.2rem;

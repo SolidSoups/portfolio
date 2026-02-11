@@ -1,7 +1,7 @@
 import AeroCard from "./AeroCard";
 import "./PortfolioPage.css";
 
-export default function PortfolioPage() {
+export default function PortfolioPage({ setPage }) {
   return (
     <>
       <div className="cards-panel aero-div-light">
@@ -15,6 +15,7 @@ export default function PortfolioPage() {
             scopeTime: 3,
             engine: "Unity",
           }}
+          onClick={() => setPage("sushi2go")}
         />
         <AeroCard
           cardInfo={{
@@ -25,6 +26,7 @@ export default function PortfolioPage() {
             scopeTime: 4.5,
             engine: "Unity",
           }}
+          onClick={() => setPage("daggerbound")}
         />
         <AeroCard
           cardInfo={{
@@ -35,6 +37,7 @@ export default function PortfolioPage() {
             scopeTime: 7,
             engine: "Unreal",
           }}
+          onClick={() => setPage("slaylien")}
         />
         <AeroCard
           cardInfo={{
@@ -45,6 +48,7 @@ export default function PortfolioPage() {
             scopeTime: 4,
             engine: "Unity",
           }}
+          onClick={() => setPage("whatislove")}
         />
       </div>
     </>

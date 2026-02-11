@@ -1,9 +1,9 @@
 import "./AeroCard.css";
 
-export default function AeroCard({ cardInfo }) {
+export default function AeroCard({ cardInfo, onClick }) {
   return (
     <>
-      <button className="aero-card">
+      <button className="aero-card" onClick={onClick}>
         <div className="aero-card-top">
           <img src={cardInfo.imgSrc} />
           <div className="aero-card-desc">
