@@ -1,4 +1,5 @@
 .project-content {
-  width: 80rem;
-  padding: 4rem;
+  width: 100rem;
+  padding: 4rem 0 4rem 0;
+  justify-self: center;
 }

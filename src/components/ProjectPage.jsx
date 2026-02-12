@@ -15,7 +15,7 @@ export default function ProjectPage({ mdFile, rawContent }) {
   }, [mdFile]);
 
   return (
-    <div className="project-content site-content">
+    <div className="site-content" style={{width: "100%"}>
       <ReactMarkdown rehypePlugins={[rehypeRaw]}>
         {mdFile ? content : rawContent}
       </ReactMarkdown>
