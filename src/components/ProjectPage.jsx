@@ -1,14 +1,13 @@
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import { useState, useEffect } from "react";
+import "./ProjectPage.css";
 
 export default function ProjectPage({ mdFile, rawContent }) {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    if (rawContent) {
-      setContent(rawContent);
-    } else if (mdFile) {
+    if (mdFile) {
       fetch("/" + mdFile)
         .then((res) => res.text())
         .then((text) => setContent(text));
@@ -16,8 +15,10 @@ export default function ProjectPage({ mdFile, rawContent }) {
   }, [mdFile]);
 
   return (
-    <div className="site-content">
-      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
+    <div className="project-content site-content">
+      <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+        {mdFile ? content : rawContent}
+      </ReactMarkdown>
     </div>
   );
 }

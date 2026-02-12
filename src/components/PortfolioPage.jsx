@@ -5,7 +5,7 @@ export default function PortfolioPage({ setPage }) {
   return (
     <>
       <div className="cards-panel aero-div-light">
-        <h1>Team Projects</h1>
+        <h1>TEAM PROJECTS</h1>
         <AeroCard
           cardInfo={{
             header: "SUSHI 2 GO!",

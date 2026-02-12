@@ -79,7 +79,7 @@
 
 .md-padded,
 .md-alt-bg {
-  padding: 4rem !important;
+  padding: 4rem;
 }
 
 .md-padded.md-row {
@@ -102,4 +102,5 @@
 .weak-text {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 2rem !important;
 }
